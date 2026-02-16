@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+*/node_modules/
+package-lock.json
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env*.local
+*.env
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+
+# Uploads (temporary files)
+uploads/
+!uploads/.gitkeep
+
+# Database
+*.sql
+*.db
+*.sqlite
+
+# Misc
+.husky/_/
